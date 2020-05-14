@@ -14,10 +14,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private ImageView ballI;
     private TextView respuesta;
 
-    private String[] respuestaArray = {"Es cierto", "Definitivamente es así", "Sin duda", "Sí definitivamente", "Puede confiar en él", "Como yo lo veo, sí",
-            "Lo más probable", "Perspectiva buena", "Sí", "Las señales apuntan a sí", "Respuesta confusa intente de nuevo", "Pregunte de nuevo más tarde",
-            "Mejor no decirte ahora", "No puedo predecir ahora", "Concéntrate y pregunta de nuevo", "No cuentes con eso",
-            "Mi respuesta es no", "Mis fuentes dicen que no", "Outlook no es tan bueno", "Muy dudoso"};
+    private String[] respuestaArray = {"Es cierto lo que dices", "Jajajaja perdio la razon?", "Sin duda", "Sí definitivamente", "Salga, el mundo lo espera", "Si, no lo piense tanto",
+            "Hay mas opciones en camino", "Se siente usted bien?", "Sí", "No es para ti", "Quizas, quizas, quizas", "Preguntame cuando este de humor",
+            "Mejor no decirte ahora", "No puedo predecir ahora", "No cuentes con eso", "Eso que buscas está muy cerca", "Estas jugando conmigo?", "Tu puedes con todo",
+            "Mi respuesta es no", "Como un maestro espadachin diria, que diablos te pasa?", "Podrias preguntar de nuevo?", "Huele a peligro"};
 
     @Override //convertire con esto al "hijo" onCreate en super clase
     protected void onCreate(Bundle savedInstanceState) {

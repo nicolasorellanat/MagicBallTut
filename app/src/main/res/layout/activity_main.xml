@@ -4,37 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#1D2123"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Conoce tu destino!!"
         android:layout_gravity="center"
-        android:textSize="24sp"
         android:layout_marginTop="24dp"
-        android:textColor="#000000"
-        android:textStyle="italic|bold"/>
+        android:text="Conoce tu destino!!"
+        android:textColor="#DD94DD"
+        android:textSize="24sp"
+        android:textStyle="italic|bold" />
 
     <ImageView
         android:id="@+id/boton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="208dp"
+        android:layout_height="239dp"
         android:layout_gravity="center"
         android:layout_marginTop="48dp"
-        app:srcCompat="@drawable/ball" />
+        app:srcCompat="@drawable/bola3" />
+
 
     <TextView
         android:id="@+id/respuesta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="..."
         android:layout_gravity="center"
-        android:textSize="32sp"
         android:layout_marginTop="48dp"
-        android:textColor="#000000"
-        android:textStyle="italic|bold"/>
+        android:text="... ¿Que será lo que te espera?"
+        android:textColor="#989DD5"
+        android:textSize="21sp"
+        android:textStyle="italic|bold" />
 
 
 </LinearLayout>
